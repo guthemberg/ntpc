@@ -1,0 +1,129 @@
+.TH "flow_t" 3 "18 Oct 2006" "Version 1.0" "Analyser-PX" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+flow_t \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <analyserpxTypes.h>\fP
+.PP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "u_short \fBproto\fP"
+.br
+.ti -1c
+.RI "u_short \fBclass_proto\fP"
+.br
+.ti -1c
+.RI "char \fBsrc_if\fP [IF_CHAR_SIZE]"
+.br
+.ti -1c
+.RI "char \fBdst_if\fP [IF_CHAR_SIZE]"
+.br
+.ti -1c
+.RI "u_short \fBdst_port\fP"
+.br
+.ti -1c
+.RI "u_short \fBsrc_port\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBn_bytes\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBn_frames\fP"
+.br
+.ti -1c
+.RI "time_t \fBini_sec\fP"
+.br
+.ti -1c
+.RI "time_t \fBini_mic\fP"
+.br
+.ti -1c
+.RI "time_t \fBend_sec\fP"
+.br
+.ti -1c
+.RI "time_t \fBend_mic\fP"
+.br
+.ti -1c
+.RI "in_addr src_ip \fBdst_ip\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Flow type 
+.PP
+Definition at line 59 of file analyserpxTypes.h.
+.SH "Member Data Documentation"
+.PP 
+.SS "u_short \fBflow_t::class_proto\fP"
+.PP
+Classification protocol number 
+.PP
+Definition at line 61 of file analyserpxTypes.h.
+.SS "char \fBflow_t::dst_if\fP[IF_CHAR_SIZE]"
+.PP
+destination native interface name 
+.PP
+Definition at line 62 of file analyserpxTypes.h.
+.SS "struct in_addr src_ip \fBflow_t::dst_ip\fP"
+.PP
+< source ip destination ip 
+.PP
+Definition at line 72 of file analyserpxTypes.h.
+.SS "u_short \fBflow_t::dst_port\fP"
+.PP
+source port 
+.PP
+Definition at line 64 of file analyserpxTypes.h.
+.SS "time_t \fBflow_t::end_mic\fP"
+.PP
+microseconds end time 
+.PP
+Definition at line 68 of file analyserpxTypes.h.
+.SS "time_t \fBflow_t::end_sec\fP"
+.PP
+seconds end time 
+.PP
+Definition at line 68 of file analyserpxTypes.h.
+.SS "time_t \fBflow_t::ini_mic\fP"
+.PP
+microseconds init time 
+.PP
+Definition at line 68 of file analyserpxTypes.h.
+.SS "time_t \fBflow_t::ini_sec\fP"
+.PP
+seconds init time 
+.PP
+Definition at line 68 of file analyserpxTypes.h.
+.SS "unsigned int \fBflow_t::n_bytes\fP"
+.PP
+number of bytes 
+.PP
+Definition at line 66 of file analyserpxTypes.h.
+.SS "unsigned int \fBflow_t::n_frames\fP"
+.PP
+number of frames 
+.PP
+Definition at line 66 of file analyserpxTypes.h.
+.SS "u_short \fBflow_t::proto\fP"
+.PP
+protocol number 
+.PP
+Definition at line 60 of file analyserpxTypes.h.
+.SS "char \fBflow_t::src_if\fP[IF_CHAR_SIZE]"
+.PP
+source native interface name 
+.PP
+Definition at line 62 of file analyserpxTypes.h.
+.SS "u_short \fBflow_t::src_port\fP"
+.PP
+destination port 
+.PP
+Definition at line 64 of file analyserpxTypes.h.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Analyser-PX from the source code.

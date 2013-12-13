@@ -1,0 +1,104 @@
+
+
+                analyser-px release 1.0
+
+What is this?
+-------------
+
+Analyser-PX is a traffic capture, aggregation and classification tool. Our
+goal is to classify the aggredated traffic into p2p applications. The
+capture can be performed either online (via a native ethernet interface) or 
+offline (previous captured in libpcap file format). The traffic is 
+aggregated into flows of packets of any protocol (tcp, udp, icmp...) which
+is finished after 64s of inactivity. The flows are classified using a
+signature-matching classifier for the main p2p applications. More information
+can be found in http://www.gprt.ufpe.br.
+
+
+Requirements
+------------
+
+The current version of Analyser-PX has been tested on Linux 2.6 
+with gcc 3.4.  We expect the software to work on most
+other POSIX systems that we have not explicitly tested.
+
+The following requirements are for optional features of Analyser-PX:
+
+Monitoring a live interface requires ethernet cards and drivers (but
+cards and drivers are not required for working with trace files).  The
+Analyser-PX dos not upply the drivers.
+
+Reading pcap (tcpdump) interfaces and files requires libpcap and <pcap.h>.
+Like pcap, provides a packet filtering mechanism based on the BSD packet 
+filter (BPF). Also write classified aggregated flow in a binary format 
+that can be read with analyserpx_read example application. Require libpcap 0.6 
+or later, or any version of libpcap with the file <pcap-int.h> installed. 
+Libpcap can be obtained at http://www.tcpdump.org/.
+
+Supported Protocol List
+-------------------------
+Name				|Code
+......................................
+applejuice			|0102
+ares 				|0103
+bittorrent 			|0104
+directconnect			|0105
+edonkey				|0106
+fasttrack			|0107
+gnutella			|0110
+mute				|0115
+napster(OpenNAP)		|0116
+soulseek			|0120
+Earth Station 5			|0124
+MP2P				|0125
+XDcc				|0128
+Waste				|0129
+WinMX				|0126
+http				|0201
+aim				|0301
+irc				|0303
+msnmessenger			|0306
+yahoo				|0308
+counterstrike-source		|0403
+halflife2-deathmatch		|0407
+Half Life 2 Counter-Strike	|0415
+Half Life Deathmatch		|0416
+Quake 3				|0417
+dns				|0501
+netbios				|0506
+nbns				|0509
+nbds				|0510
+bootstrap			|0511
+rtsp				|0601
+quicktime			|0602
+httpvideo			|0606
+httpaudio			|0608
+pop3				|0703
+smtp				|0704
+ftp				|0801
+ssh				|1301
+ssl				|1302
+validcertssl			|1303
+
+Particular Codes
+-------------------------------------
+UNKNOWN				|0000
+WITHOUT_PAYLOAD			|3000
+
+Documentation and Support
+-------------------------
+
+Most of the documentation is in the doc directory and the web site mentioned
+above. We provide some examples of practical usage of our code we hope that
+these will help you developing analysis tools to serve your needs.
+
+
+Files of interest:
+
+ README			this file
+ INSTALL		how to build & install the apps
+ doc/			documentation starting point
+ doc/MANUAL		user manual
+ src/			source code directory
+ include/		libary directory
+ bin/			binary directory

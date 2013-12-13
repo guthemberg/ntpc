@@ -1,0 +1,10 @@
+
+To install Analyser-PX distribution just do:
+
+	make
+
+The binary will be placed on bin/ directory.
+
+Execute ./bin/analyserpx_cap with -h for command options.
+
+

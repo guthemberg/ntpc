@@ -1,0 +1,44 @@
+==========================
+Analyser-PX
+==========================
+
+Analyser-PX monitors, collects and store traffic that is visible in a interface. It collects frames or part of it (specified by snaplen option) which may be from standard interfaces via libpcap. The frames are aggregated into flows and stored on a binary file.
+The binay file can be read by the analyserpx_read and the flows printed on screen in text format.
+
+Usage:	analyserpx_cap [-h] [-c count] [-i interface] [ -s snaplen ] [-w file] [-e expression] [-t administrative time] [-l logFileName] [-r input file] [-z number of time bins to change the output]
+Parameters:
+-h		
+-c		Maximum number of frames to be capured. Default: 0 (infinity)
+-i		Specify the ethernet interface to be listened. Default: null (active interface)
+-s		Maximum number of bytes to be captured in each frame. Default: 1518
+-w		File prefix where collected data will be stored. Default: cap
+-e		Select the frames that will be captured. 
+		See tcpdump expression for more details. Default: ip
+-t		Specify the time out in seconds for expired flows to 
+		be flushed out of the memory. Default: 300
+-z      	Specify how many time bins will be considered to generate a new
+        	output file name. As default, 0 means all day long (Default: 0)
+-r      	Input file to offline capture
+-l		Specify the log file name. Default: logcap
+
+Examples:
+analyserpx_cap -i eth0 -s 1518 -w cap -e ip -t 300 -l log
+Captures flows of ip traffic from eth0 with at maximum 1518 bytes length. The flows will be stored on the files cap0, until midnight, when the file name is changed to cap1, and so on.
+
+analyserpx_cap -w cap
+Captures all traffic from active interface.
+
+==========================
+analyserpx_read
+==========================
+
+analyserpx_read reads a file with flows previously captured by analyserpx_cap and 
+prints it in text format.
+
+Usage:	%s [-h] [-d] [-s] file
+where:
+-h	This message
+-d	Prints the start data and time in a human readable format. 
+	The end time is substituted by the flow duration (in miliseconds).
+-s	Print protocol names instead of protocol ID
+file	The file containing flows captured with analyserpx_cap

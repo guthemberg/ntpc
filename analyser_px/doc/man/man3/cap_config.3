@@ -1,0 +1,97 @@
+.TH "cap_config" 3 "18 Oct 2006" "Version 1.0" "Analyser-PX" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+cap_config \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <analyserpxTypes.h>\fP
+.PP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "char \fBdev\fP [10]"
+.br
+.ti -1c
+.RI "char \fBerrbuf\fP [PCAP_ERRBUF_SIZE]"
+.br
+.ti -1c
+.RI "pcap_t * \fBdescr\fP"
+.br
+.ti -1c
+.RI "bpf_program \fBfp\fP"
+.br
+.ti -1c
+.RI "bpf_u_int32 \fBmaskp\fP"
+.br
+.ti -1c
+.RI "bpf_u_int32 \fBnetp\fP"
+.br
+.ti -1c
+.RI "char \fBfilter_app\fP [100]"
+.br
+.ti -1c
+.RI "int \fBnumOfPackets\fP"
+.br
+.ti -1c
+.RI "unsigned short \fBsnap_len\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Set of libpcap parameters 
+.PP
+Definition at line 43 of file analyserpxTypes.h.
+.SH "Member Data Documentation"
+.PP 
+.SS "pcap_t* \fBcap_config::descr\fP"
+.PP
+sniff handler 
+.PP
+Definition at line 47 of file analyserpxTypes.h.
+.SS "char \fBcap_config::dev\fP[10]"
+.PP
+capture device 
+.PP
+Definition at line 45 of file analyserpxTypes.h.
+.SS "char \fBcap_config::errbuf\fP[PCAP_ERRBUF_SIZE]"
+.PP
+error buffer 
+.PP
+Definition at line 46 of file analyserpxTypes.h.
+.SS "char \fBcap_config::filter_app\fP[100]"
+.PP
+well kown filter expression 
+.PP
+Definition at line 51 of file analyserpxTypes.h.
+.SS "struct bpf_program \fBcap_config::fp\fP"
+.PP
+compiled program 
+.PP
+Definition at line 48 of file analyserpxTypes.h.
+.SS "bpf_u_int32 \fBcap_config::maskp\fP"
+.PP
+subnet mask 
+.PP
+Definition at line 49 of file analyserpxTypes.h.
+.SS "bpf_u_int32 \fBcap_config::netp\fP"
+.PP
+ip 
+.PP
+Definition at line 50 of file analyserpxTypes.h.
+.SS "int \fBcap_config::numOfPackets\fP"
+.PP
+number of packets to capture 
+.PP
+Definition at line 52 of file analyserpxTypes.h.
+.SS "unsigned short \fBcap_config::snap_len\fP"
+.PP
+packet's length to capture 
+.PP
+Definition at line 53 of file analyserpxTypes.h.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Analyser-PX from the source code.

@@ -1,0 +1,165 @@
+.TH "hash_tab" 3 "18 Oct 2006" "Version 1.0" "Analyser-PX" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+hash_tab \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "const char * \fBid\fP"
+.br
+.ti -1c
+.RI "compare_function \fBcmpfn\fP"
+.br
+.ti -1c
+.RI "key_function \fBkeyfn\fP"
+.br
+.ti -1c
+.RI "delete_function \fBdelfn\fP"
+.br
+.ti -1c
+.RI "unsigned long \fBsize\fP"
+.br
+.ti -1c
+.RI "\fBhash_entry\fP ** \fBtable\fP"
+.br
+.ti -1c
+.RI "unsigned long \fBwalk_key\fP"
+.br
+.ti -1c
+.RI "\fBhash_entry\fP * \fBwalk_loc\fP"
+.br
+.ti -1c
+.RI "int \fBinside_walk\fP"
+.br
+.ti -1c
+.RI "unsigned long \fBentries\fP"
+.br
+.ti -1c
+.RI "unsigned long \fBmax_entries\fP"
+.br
+.ti -1c
+.RI "unsigned long \fBhits\fP"
+.br
+.ti -1c
+.RI "unsigned long \fBhits_visited\fP"
+.br
+.ti -1c
+.RI "unsigned long \fBmisses\fP"
+.br
+.ti -1c
+.RI "unsigned long \fBmisses_visited\fP"
+.br
+.ti -1c
+.RI "unsigned long \fBtotal_insert\fP"
+.br
+.ti -1c
+.RI "\fBhash_tab\fP * \fBnext\fP"
+.br
+.ti -1c
+.RI "\fBhash_tab\fP ** \fBprev\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 16 of file hashtab.c.
+.SH "Member Data Documentation"
+.PP 
+.SS "compare_function \fBhash_tab::cmpfn\fP"
+.PP
+Function to compare two entries. 
+.PP
+Definition at line 19 of file hashtab.c.
+.SS "delete_function \fBhash_tab::delfn\fP"
+.PP
+Function called when freeing an entry. 
+.PP
+Definition at line 21 of file hashtab.c.
+.SS "unsigned long \fBhash_tab::entries\fP"
+.PP
+Total number of entries. 
+.PP
+Definition at line 30 of file hashtab.c.
+.SS "unsigned long \fBhash_tab::hits\fP"
+.PP
+Total hits. 
+.PP
+Definition at line 33 of file hashtab.c.
+.SS "unsigned long \fBhash_tab::hits_visited\fP"
+.PP
+Total number of entries visited on hits. 
+.PP
+Definition at line 34 of file hashtab.c.
+.SS "const char* \fBhash_tab::id\fP"
+.PP
+''Name'' of hashtable, for stat display. 
+.PP
+Definition at line 17 of file hashtab.c.
+.SS "int \fBhash_tab::inside_walk\fP"
+.PP
+Boolean set true when walking hash table. 
+.PP
+Definition at line 28 of file hashtab.c.
+.SS "key_function \fBhash_tab::keyfn\fP"
+.PP
+Function to generate a key for an entry. 
+.PP
+Definition at line 20 of file hashtab.c.
+.SS "unsigned long \fBhash_tab::max_entries\fP"
+.PP
+Max # of entries ever stored. 
+.PP
+Definition at line 31 of file hashtab.c.
+.SS "unsigned long \fBhash_tab::misses\fP"
+.PP
+total misses. 
+.PP
+Definition at line 36 of file hashtab.c.
+.SS "unsigned long \fBhash_tab::misses_visited\fP"
+.PP
+Total number of entried visited misses. 
+.PP
+Definition at line 37 of file hashtab.c.
+.SS "struct \fBhash_tab\fP* \fBhash_tab::next\fP"
+.PP
+Next pointer to keep all hashtables in linked list. 
+.PP
+Definition at line 41 of file hashtab.c.
+.SS "struct \fBhash_tab\fP** \fBhash_tab::prev\fP"
+.PP
+Prev pointer to keep all hashtables in linked list. 
+.PP
+Definition at line 42 of file hashtab.c.
+.SS "unsigned long \fBhash_tab::size\fP"
+.PP
+Size of the hashtable. 
+.PP
+Definition at line 23 of file hashtab.c.
+.SS "struct \fBhash_entry\fP** \fBhash_tab::table\fP"
+.PP
+Actual hashtable array. 
+.PP
+Definition at line 24 of file hashtab.c.
+.SS "unsigned long \fBhash_tab::total_insert\fP"
+.PP
+Total number of entries ever inserted. 
+.PP
+Definition at line 39 of file hashtab.c.
+.SS "unsigned long \fBhash_tab::walk_key\fP"
+.PP
+Current bucket when walking hash table. 
+.PP
+Definition at line 26 of file hashtab.c.
+.SS "struct \fBhash_entry\fP* \fBhash_tab::walk_loc\fP"
+.PP
+Current entry when walking hash table. 
+.PP
+Definition at line 27 of file hashtab.c.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Analyser-PX from the source code.
