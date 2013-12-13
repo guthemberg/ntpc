@@ -1,0 +1,204 @@
+[RUN_PROF]DesCompactando o arquivo ./09022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./09022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/09022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/09022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./09022006/result.txt ...
+[RUN_PROF]O arquivo ./09022006/result.txt foi compactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./10022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./10022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/10022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/10022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./10022006/result.txt ...
+[RUN_PROF]O arquivo ./10022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./11022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./11022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/11022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/11022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./11022006/result.txt ...
+[RUN_PROF]O arquivo ./11022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./12022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./12022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/12022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/12022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./12022006/result.txt ...
+[RUN_PROF]O arquivo ./12022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./13022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./13022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/13022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/13022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./13022006/result.txt ...
+[RUN_PROF]O arquivo ./13022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./14022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./14022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/14022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/14022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./14022006/result.txt ...
+[RUN_PROF]O arquivo ./14022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./15022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./15022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/15022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/15022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./15022006/result.txt ...
+[RUN_PROF]O arquivo ./15022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./16022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./16022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/16022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/16022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./16022006/result.txt ...
+[RUN_PROF]O arquivo ./16022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./17022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./17022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/17022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/17022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./17022006/result.txt ...
+[RUN_PROF]O arquivo ./17022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./18022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./18022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/18022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/18022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./18022006/result.txt ...
+[RUN_PROF]O arquivo ./18022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./19022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./19022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/19022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/19022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./19022006/result.txt ...
+[RUN_PROF]O arquivo ./19022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./20022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./20022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/20022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/20022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./20022006/result.txt ...
+[RUN_PROF]O arquivo ./20022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./21022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./21022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/21022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/21022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./21022006/result.txt ...
+[RUN_PROF]O arquivo ./21022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./22022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./22022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/22022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/22022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./22022006/result.txt ...
+[RUN_PROF]O arquivo ./22022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./23022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./23022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/23022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/23022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./23022006/result.txt ...
+[RUN_PROF]O arquivo ./23022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./24022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./24022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/24022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/24022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./24022006/result.txt ...
+[RUN_PROF]O arquivo ./24022006/result.txt foi descompactado com sucesso.
+[RUN_PROF]DesCompactando o arquivo ./25022006/result.txt.gz ...
+[RUN_PROF]O arquivo ./25022006/result.txt.gz foi descompactado com sucesso.
+[RUN_PROF]Processando arquivo com run.sh...
+[RUN]Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/25022006/prof_training
+Inicio do Processamento
+...Numero de parametros insuficiente em traning.c. Use:
+#program_name prefix_dir type beta day month year period script_dirProcesso finalizado[RUN]Fim do Processando main.exe com a opcao p2p em 
+/usr/traffic/journal/training_traces/022006/25022006/prof_training
+[RUN_PROF]Arquivo processado com run.sh.
+[RUN_PROF]Compactando o arquivo ./25022006/result.txt ...
+[RUN_PROF]O arquivo ./25022006/result.txt foi descompactado com sucesso.

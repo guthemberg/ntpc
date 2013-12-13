@@ -1,0 +1,138 @@
+
+Identificação	
+	CPF do Declarante:	008.474.054-00 - GUTHEMBERG DA SILVA SILVESTRE
+	Data de Nascimento:	28/02/1980
+	Número do Título Eleitoral:	00343515312-10
+
+Em 2004 o CPF 008.474.054-00 teve rendimentos tributáveis superiores ao limite de isenção do Imposto de Renda (R$ 12.696,00).
+
+Neste caso, o contribuinte não pode apresentar a Declaração Anual de Isento - DAI e está obrigado a apresentar a Declaração de Ajuste Anual de Imposto de Renda 2005 - IRPF, que deve ser entregue via internet, com a utilização do programa Receitanet.
+
+Para obter maiores informações sobre este assunto, procure uma das unidades da Receita Federal do Brasil apresentando o código de atendimento: 005198569
+Script para histograma
+tabsrcip<-read.table("./p2p_SRC_IP_kartei.txt", header=T,sep=",")
+x<-tabsrcip$bc
+y<-tabsrcip$freq
+brk<-c(-0.5,0.5,1.5,2.5,3.5,4.5,5.5,6.5,7.5,8.5,9.5,10.5,11.5,12.5,13.5,14.5,15.5,16.5,17.5,18.5,19.5,20.5,21.5,22.5,23.5,24.5,25.5,26.5)
+bc<-rep(x,y)
+png(filename="./histograma_p2p.png")
+hist(bc,breaks=brk,freq=T,main="Histograma de BC para P2P")
+dev.off()
+
+> tabsrcip<-read.table("./SRC_IP.txt", header=T,sep=",")
+> x<-1:288
+> y<-tabsrcip$nA
+> k<-tabsrcip$nS
+> par(lty=1)
+> plot(x,log10(y),type="l",ylim=c(1,6),axes=T,main="srcIP dimension",ylab="srcIP clusters(log base 10)",xlab="tempo")
+> par(lty=2)
+> lines(x,log10(k),type="l")
+
+para imprimir graficos 
+$ /fred/R-1.4.1/bin/R --no-save <rbatchtest
+
+   $ cat rbatchtest
+   x11("10.20.30.400:0")
+   png(filename="batchtest.png")
+   plot(1,1)
+   dev.off()
+   $ 
+
+
+
+
+> tabsrcip<-read.table("./DST_IP.txt", header=T,sep=",")
+> x<-1:288
+> y<-tabsrcip$nA
+> k<-tabsrcip$nS
+> par(lty=1)
+
+^C
+
+>
+> par(lty=1)
+> plot(x,log10(y),type="l",ylim=c(1,6),axes=T,main="dstIP dimension",ylab="dstIP clusters(log base 10)",xlab="tempo")
+> par(lty=2)
+> lines(x,log10(k),type="l")
+> tabsrcip<-read.table("./SRC_PRT.txt", header=T,sep=",")
+> x<-1:288
+> y<-tabsrcip$nA
+> k<-tabsrcip$nS
+> par(lty=1)
+> plot(x,log10(y),type="l",ylim=c(1,6),axes=T,main="srcPrt dimension",ylab="srcPrt clusters(log base 10)",xlab="tempo")
+> par(lty=2)
+> lines(x,log10(k),type="l")
+> plot(x,log10(y),type="l",ylim=c(1,3),axes=T,main="srcPrt dimension",ylab="srcPrt clusters(log base 10)",xlab="tempo")
+> par(lty=1)
+> plot(x,log10(y),type="l",ylim=c(1,3),axes=T,main="srcPrt dimension",ylab="srcPrt clusters(log base 10)",xlab="tempo")
+> par(lty=2)
+> lines(x,log10(k),type="l")
+> plot(x,log10(y),type="l",ylim=c(0,3),axes=T,main="srcPrt dimension",ylab="srcPrt clusters(log base 10)",xlab="tempo")
+> par(lty=1)
+> plot(x,log10(y),type="l",ylim=c(0,3),axes=T,main="srcPrt dimension",ylab="srcPrt clusters(log base 10)",xlab="tempo")
+> par(lty=2)
+> lines(x,log10(k),type="l")
+> tabsrcip<-read.table("./DST_PRT.txt", header=T,sep=",")
+> x<-1:288
+> y<-tabsrcip$nA
+> k<-tabsrcip$nS
+> par(lty=1)
+> plot(x,log10(y),type="l",ylim=c(0,3),axes=T,main="dstPrt dimension",ylab="dstPrt clusters(log base 10)",xlab="tempo")
+> par(lty=2)
+> lines(x,log10(k),type="l")
+> par(lty=1)
+> plot(x,y,type="l",ylim=c(0,max(y)+0.001),axes=T,main="limite de dstPrt",ylab="alfa",xlab="tempo")
+> y<-tabsrcip$alpha
+> plot(x,y,type="l",ylim=c(0,max(y)+0.001),axes=T,main="limite de dstPrt",ylab="alfa",xlab="tempo")
+> tabsrcip<-read.table("./SRC_PRT.txt", header=T,sep=",")
+> y<-tabsrcip$alpha
+> par(lty=1)
+> plot(x,y,type="l",ylim=c(0,max(y)+0.001),axes=T,main="limite de srcPrt",ylab="alfa",xlab="tempo")
+> tabsrcip<-read.table("./DST_IP.txt", header=T,sep=",")
+> y<-tabsrcip$alpha
+> par(lty=1)
+> plot(x,y,type="l",ylim=c(0,max(y)+0.001),axes=T,main="limite de dstIP",ylab="alfa",xlab="tempo")
+> max(y)
+[1] 0.0025
+> y<-tabsrcip$entropiaA
+> max(y)
+[1] 14.80055
+> min(y)
+[1] 7.421606
+> plot(x,y,type="l",ylim=c(min(y)-2,max(y)+2),axes=T,main="entropia de dstIP",ylab="H(x)",xlab="tempo")
+> y<-tabsrcip$entropiaNormalizadaA
+> max(y)
+[1] 0.003759
+> min(y)
+[1] 9.4e-05
+> plot(x,y,type="l",ylim=c(0,max(y)+0.002),axes=T,main="RU de dstIP",ylab="RU",xlab="tempo")
+> tabsrcip<-read.table("./SRC_IP.txt", header=T,sep=",")
+> y<-tabsrcip$entropiaNormalizadaA
+> plot(x,y,type="l",ylim=c(0,max(y)+0.002),axes=T,main="RU de srcIP",ylab="RU",xlab="tempo")
+> y<-tabsrcip$entropiaA
+> plot(x,y,type="l",ylim=c(min(y)-2,max(y)+2),axes=T,main="entropia de srcIP",ylab="H(x)",xlab="tempo")
+> tabsrcip<-read.table("./SRC_PRT.txt", header=T,sep=",")
+> y<-tabsrcip$entropiaNormalizadaA
+> plot(x,y,type="l",ylim=c(0,max(y)+0.002),axes=T,main="RU de dstPrt",ylab="RU",xlab="tempo")
+> y<-tabsrcip$entropiaA
+> y<-tabsrcip$entropiaNormalizadaA
+> plot(x,y,type="l",ylim=c(0,max(y)+0.002),axes=T,main="RU de srcPrt",ylab="RU",xlab="tempo")
+> y<-tabsrcip$entropiaA
+> plot(x,y,type="l",ylim=c(min(y)-2,max(y)+2),axes=T,main="entropia de srcPrt",ylab="H(x)",xlab="tempo")
+> tabsrcip<-read.table("./DST_PRT.txt", header=T,sep=",")
+> y<-tabsrcip$entropiaA
+> plot(x,y,type="l",ylim=c(min(y)-2,max(y)+2),axes=T,main="entropia de dstPrt",ylab="H(x)",xlab="tempo")
+> y<-tabsrcip$entropiaNormalizadaA
+> plot(x,y,type="l",ylim=c(0,max(y)+0.002),axes=T,main="RU de dstPrt",ylab="RU",xlab="tempo")
+> tabsrcip<-read.table("./SRC_IP.txt", header=T,sep=",")
+> y<-tabsrcip$alpha
+> plot(x,y,type="l",ylim=c(0,max(y)+0.001),axes=T,main="limite de srcIP",ylab="alfa",xlab="tempo")
+> tabsrcip<-read.table("./SRC_PRT.txt", header=T,sep=",")
+> y<-tabsrcip$entropiaNormalizadaA
+> plot(x,y,type="l",ylim=c(0,max(y)+0.002),axes=T,main="RU de srcPrt",ylab="RU",xlab="tempo")
+
+
+
+
+
+
